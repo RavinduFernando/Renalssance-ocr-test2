@@ -1,0 +1,58 @@
+############################
+# Python bytecode / cache  #
+############################
+__pycache__/
+*.pyo
+*.pyd
+*.so
+*.dll
+
+############################
+# Virtual environments     #
+############################
+.venv/
+venv/
+env/
+.env/
+.conda/
+*.egg-info/
+dist/
+build/
+
+############################
+# Jupyter                  #
+############################
+.ipynb_checkpoints/
+
+############################
+# IDE / editor files       #
+############################
+.vscode/
+.idea/
+*.code-workspace
+
+############################
+# OS junk                  #
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# ML / training artifacts  #
+############################
+runs/
+*.pth
+*.ckpt
+*.log
+
+############################
+# Generated image data     #
+# (reproducible from PDFs) #
+############################
+data/printed_pages/
+data/lines/
+data/page_lines/
+data/*_cache/
+data/printed_sources/
+data/.ipynb_checkpoints/
+

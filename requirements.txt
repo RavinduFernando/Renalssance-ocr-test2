@@ -1,0 +1,40 @@
+# Core language + notebook
+ipykernel
+jupyter
+
+# PDF and image processing
+pdf2image
+pypdf
+Pillow
+opencv-python
+
+# Data handling
+pandas
+numpy
+scikit-learn
+
+# Deep learning
+torch
+torchvision
+torchaudio
+
+# OCR baseline
+pytesseract
+
+# Metrics
+editdistance
+jiwer
+
+# Progress bars
+tqdm
+
+# LLM clients (pick the one you actually use)
+openai
+google-generativeai
+
+# Visualization (optional but useful)
+matplotlib
+seaborn
+
+# YAML config
+PyYAML

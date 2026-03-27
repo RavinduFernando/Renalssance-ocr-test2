@@ -1,0 +1,30 @@
+# default.yaml
+# Configuration for printed OCR CRNN + CTC project.
+
+data:
+  train_csv: "data/pages_gt_auto.csv"   # CSV with columns: image_path,text
+  val_csv:   "data/pages_gt_auto.csv"
+  test_csv:  "data/pages_gt_auto.csv"
+  img_height: 32                      # fixed height for line images
+
+training:
+  batch_size: 32
+  num_workers: 4
+  epochs: 30
+  lr: 0.0003
+  weight_decay: 0.0
+  save_dir: "checkpoints"
+
+evaluation:
+  # you can add any eval-specific options here
+  max_samples: null                   # set to integer to limit eval size
+
+llm:
+  provider: "local"                       # or "openai" if you later switch
+  base_url: "http://localhost:1234/v1"   # LM Studio local server URL
+  model_name: "lmstudio-community/Meta-Llama-3.1-8B-Instruct-GGUF"
+  temperature: 0.0
+  max_tokens: 512
+  # You would typically keep API keys out of git, in env vars
+
+  
