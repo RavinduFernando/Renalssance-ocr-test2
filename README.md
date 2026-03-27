@@ -68,6 +68,7 @@ The goal is to build an OCR pipeline for early modern printed sources using a co
 
 └── .gitignore
 
+```
 
 ## Results
 
