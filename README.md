@@ -1,4 +1,4 @@
-\# RenAIssance Printed OCR – GSoC 2026 Test I
+# RenAIssance Printed OCR – GSoC 2026 Test I
 
 
 
@@ -8,23 +8,23 @@ The goal is to build an OCR pipeline for early modern printed sources using a co
 
 
 
-\## 1. Project overview
+## 1. Project overview
 
 
 
-\- \*\*Task:\*\* Recognize the main printed text in scanned early modern sources, ignoring marginalia and decorations.
+ \*\*Task:\*\* Recognize the main printed text in scanned early modern sources, ignoring marginalia and decorations.
 
-\- \*\*Model:\*\* Convolutional‑Recurrent Neural Network (CRNN) with CTC loss for line‑level OCR.
+ \*\*Model:\*\* Convolutional‑Recurrent Neural Network (CRNN) with CTC loss for line‑level OCR.
 
-\- \*\*Baselines:\*\* Tesseract OCR on preprocessed images.
+ \*\*Baselines:\*\* Tesseract OCR on preprocessed images.
 
-\- \*\*LLM step:\*\* A large language model is used after OCR to correct obvious recognition errors while preserving historical spelling.
+ \*\*LLM step:\*\* A large language model is used after OCR to correct obvious recognition errors while preserving historical spelling.
 
-\- \*\*Metrics:\*\* Character Error Rate (CER) and Word Error Rate (WER).
+ \*\*Metrics:\*\* Character Error Rate (CER) and Word Error Rate (WER).
 
 
 
-\## 2. Repository structure
+## 2. Repository structure
 
 
 
