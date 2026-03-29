@@ -1,4 +1,4 @@
-# RenAIssance Printed OCR – GSoC 2026 Test I
+# RenAIssance Printed OCR – GSoC 2026 Test II
 
 
 
